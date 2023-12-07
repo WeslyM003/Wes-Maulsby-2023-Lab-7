@@ -2,7 +2,7 @@
 #define game_H
 
 #include <string>
-
+using namespace std;
 //Game class used to create and run game
 class Game
 {
@@ -25,6 +25,7 @@ public:
 	std::string topBoard[10][10];
 	std::string bottomBoard[10][10];
 	std::string enemyBoard[10][10];
+	std::string enemyTopBoard[10][10];
 
 	//function prototypes
 	void createBoards();	//creates boards
