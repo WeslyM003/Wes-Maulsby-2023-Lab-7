@@ -138,7 +138,7 @@ void Game::showBoards()		//shows boards
 			std::cout << enemyBoard[x - 1][y] << " ";
 		}
 		std::cout << endl;		//goes to next row
-	}
+	} 
 }
 
 
@@ -1279,7 +1279,6 @@ void Game::game()		//main game loop
 		else if (turnStat == "n")		//if no, end game
 		{
 			surrender = true;
-			break;
 		}
 		else if (turnStat != "y" && "n")
 		{
