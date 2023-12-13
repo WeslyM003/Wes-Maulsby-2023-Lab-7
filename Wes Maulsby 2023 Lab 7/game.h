@@ -22,6 +22,7 @@ public:
 	const int playerHitPoints = 17;	// sets player hitpoints to always be 17
 	int hits;	// makes hits a global int since it is used in multiple functions and needs to have the same value throughout them, also counts the amount of hits the player has made
 	int enemyHits;	// makes enemyHits a global int since it is used in multiple functions and needs to have the same value throughout them, also counts the amount of hits the enemy has made
+	//the boards, two for each player
 	std::string topBoard[10][10];
 	std::string bottomBoard[10][10];
 	std::string enemyBoard[10][10];

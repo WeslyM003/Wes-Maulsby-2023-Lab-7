@@ -144,13 +144,13 @@ void Game::showBoards()		//shows boards
 
 void Game::introduction()		//prints the introduction for the player
 {
-	std::cout << "Welcome to Battleship, The classic sinking game made in C++.\nTo get started, why not show you the ropes.\nFirst up are your two boards, they will consist of a top and a bottom board, like this:\n";
+	std::cout << "Welcome to Battleship, The classic sinking game made in C++ because my suffering knows no bounds\nTo get started, why not show you the ropes?\nYou will have two boards, a top and a bottom:\n";
 	showBoards();		//shows the boards as an example for the player
-	std::cout << "\nThe top board is to show where you shoot, use it to keep track of where you have and haven't shot, and where you have missed or have hit!\n";
-	std::cout << "The Bottom board is where you will see your ships, as well as see where your enemy has fired and where they have hit or missed.\n";
+	std::cout << "\nThe top board tracks your guesses and is used when taking your turn\n";
+	std::cout << "The bottom board tracks the enemy's guesses and will show you where your ships are in relation to their guesses\n"; 
 	std::cout << "The boards use symbols to designate Ships (#), water(~), hits (H) or misses (M)\n";
-	std::cout << "You will start by placing your ships, you have 5 ships, a Carrier that takes 5 spaces, a Battleship that takes 4, a Cruiser and a Submarine that both take 3, and a Destroyer that takes 2 \n";
-	std::cout << "Follow the directions to place each ship as they appear, after you place a ship the boards will update to show where your ships are.\n";
+	std::cout << "You will have 5 ships, a Carrier (5 spaces), a Battleship (4 spaces), a Cruizer (3 Spaces), a Submarine (3 spaces), and a Destroyer (2 spaces).\n"; 
+	std::cout << "After this intro, a series of prompts will help you place your ships, follow their directions to create your fleet.\n";
 	std::cout << "Once the game starts, you will enter a coordinate each turn to fire, try to hit the enemy by guessing their location.";
 	std::cout << "\nThe first person to sink all their enemies ships wins, Good Luck!\n";
 }
