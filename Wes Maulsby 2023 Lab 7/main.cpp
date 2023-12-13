@@ -19,38 +19,37 @@ becuase I missed one*/
 
 
 
-/*main game function calls using functions from game class "game.h" using object c because I still cant come up with a better object name besides
-some kind of curse word*/ 
+//main game function calls using functions from game class "game.h" using object "Steve"
 int main()
 {
-	Game c;
+	Game Steve;
 	srand(time(0)); //seed random number generator
 
 	//creates boards and gives introduction
-	c.createBoards();
-	c.introduction();
+	Steve.createBoards();
+	Steve.introduction();
 
 	//enemy places ships
-	c.placeEnemyCarrier();
-	c.placeEnemyBattleship();
-	c.placeEnemyCruizer();
-	c.placeEnemyCruizer();
-	c.placeEnemyDestroyer();
+	Steve.placeEnemyCarrier();
+	Steve.placeEnemyBattleship();
+	Steve.placeEnemyCruizer();
+	Steve.placeEnemyCruizer();
+	Steve.placeEnemyDestroyer();
 
 	//player places ships
-	c.placeCarrier();
-	c.showBoards();
-	c.placeBattleship();
-	c.showBoards();
-	c.placeCruizer();
-	c.showBoards();
-	c.placeSubmarine();
-	c.showBoards();
-	c.placeDestroyer();
-	c.showBoards();
+	Steve.placeCarrier();
+	Steve.showBoards();
+	Steve.placeBattleship();
+	Steve.showBoards();
+	Steve.placeCruizer();
+	Steve.showBoards();
+	Steve.placeSubmarine();
+	Steve.showBoards();
+	Steve.placeDestroyer();
+	Steve.showBoards();
 
 	//main game
-	c.game();
+	Steve.game();
 
 
 	//fin
