@@ -51,7 +51,7 @@ void Game::createBoards()		//creates boards
 		}
 	}
 }
-
+//In showBoards() there is a commented out series of code that will output the enemies board for testing
 void Game::showBoards()		//shows boards
 {
 	std::cout << endl << endl << "   1 2 3 4 5 6 7 8 9 10" << endl;		// prints the top numbers to show the x

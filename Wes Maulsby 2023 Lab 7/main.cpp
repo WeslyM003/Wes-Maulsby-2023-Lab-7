@@ -9,6 +9,7 @@ Violent curse words cannot express the depth of my suffering
 /*Yes I know I spelled cruiser wrong, but it appears so many times, that I am not gonna take the time to respell all of themand risk a cascade of errors
 becuase I missed one*/
 
+//In showBoards() in game.cpp there is a commented out series of code that will output the enemies board for testing
 
 
 
@@ -55,3 +56,6 @@ int main()
 	//fin
 	return 0;
 }
+
+
+// this lab was so much fun that I shipped my pants
